@@ -17,7 +17,7 @@ Lighthouse BnB is an app that will revolutionize the travel industry. It will al
 ## Usage
 
 ## Tech Stack
-Postgres, Node
+Postgres, Node, app.diagra.net for ERD
 
 ## ERD Diagram
 
