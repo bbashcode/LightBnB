@@ -1,6 +1,16 @@
 const properties = require('./json/properties.json');
 const users = require('./json/users.json');
 
+//connect to the database using pg npm package
+const { Pool } = require('pg');
+
+const pool = new Pool({
+  user: 'vagrant',
+  password: '123',
+  host: 'localhost',
+  database: 'lightbnb'
+});
+
 /// Users
 
 /**
